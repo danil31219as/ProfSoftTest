@@ -1,0 +1,1 @@
+'''select first.name, department.name from employee as first left join employee as second on first.department = second.department and first.salary < second.salary left join department on department.id == first.department where second.salary is null;'''
